@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "settings",
+    "slug": "settings",
+    "owner": "dangmeongnyang",
+    "scheme": "settings",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.dangmeongnyang.runnify",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleSignIn": {
+          "certificateHash": "FB:5A:FE:2A:18:CC:BF:62:71:CE:5B:6E:22:E9:89:B3:79:AD:E3:30"  
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "googleAndroidClientId": "1056313449994-eqa4csohpocg1l6et5vcri40raj5ubpk.apps.googleusercontent.com",  
+      "naverClientId" : "oxfl4XQbKRh3VhWNnjWX",
+      "naverClientSecret" : "Z1ANKGXWOo",
+      "eas": {
+        "projectId": "74f34660-37f3-4f29-9236-646bf33d69a3"
+      }
+    },
+    "plugins": ["expo-web-browser"]
+  }
+}
